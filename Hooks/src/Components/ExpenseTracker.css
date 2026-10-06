@@ -1,0 +1,52 @@
+.row-class{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+.totalBudget ,.totalExpense ,.remainingBudget{
+  border: 1px solid rgb(60, 49, 49);
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn-align{
+ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 19px;
+   
+}
+.btn-align button{
+  padding: 5px 12px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn-align input{
+  padding: 5px 30px;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    font-size: 12px;
+    cursor: pointer;
+    width: 11%;
+    background-color: #f0f0f0;
+}
+
+.candalbar_container{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.search-input {
+  /* search icon */
+  background-image: url("../assets/search-interface-symbol.png");
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 16px;
+}
+.activeBtn{
+  background-color: rgb(110, 231, 142);
+}
+
+
